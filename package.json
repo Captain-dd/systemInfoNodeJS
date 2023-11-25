@@ -1,0 +1,19 @@
+{
+  "name": "system-info-node-js",
+  "version": "1.0.0",
+  "description": "This is a node app which peridocally save system information like CPU use and memory use in the mongoDB database. It also expose the current use of memory and CPU usage over the API endpoint",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dhruvil Dholariya",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "machine-id": "^1.0.0",
+    "mongoose": "^8.0.1",
+    "node-machine-id": "^1.1.12",
+    "systeminformation": "^5.21.18"
+  }
+}
